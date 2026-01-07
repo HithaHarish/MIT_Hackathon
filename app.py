@@ -255,7 +255,7 @@ if st.session_state.dq_done:
 
 
 # --------------------------------------------------
-# STEP 3: AI SUMMARY (DUMMY)
+# STEP 3: AI SUMMARY 
 # --------------------------------------------------
 if st.session_state.dq_done and not st.session_state.ai_done:
     if st.button("Generate AI Data Quality Summary"):
