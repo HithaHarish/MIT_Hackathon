@@ -3,3 +3,25 @@ __pycache__/
 .venv/
 *.pyc
 .DS_Store
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Model files (optional – keep if small)
+models/*.pt
+
+# Streamlit cache
+.streamlit/
+
+# OS files
+.DS_Store
+
+# PyVis outputs
+*.html
+
